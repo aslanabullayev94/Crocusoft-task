@@ -1,0 +1,178 @@
+.Page-nav {
+  width: 100%;
+  background-color: orange;
+  position: fixed;
+  z-index: 1000;
+}
+
+.Page-nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.Page-nav a {
+  font-size: 25px;
+}
+
+.Page-nav button {
+  padding: 10px;
+  font-size: 25px;
+  background-color: orange;
+  border: none;
+  color: white;
+}
+
+/* ---------------- nav-top styles --------------------- */
+.nav-top {
+  /* background-color: palegreen; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-top a.active-link {
+  text-shadow: 3px 0 black;
+}
+
+.nav-logo-wrapper {
+  /* background-color: orange; */
+  width: 20%;
+  text-align: center;
+}
+
+.nav-logo-wrapper a {
+  font-family: "Merienda", cursive;
+}
+
+.nav-others-wrapper {
+  background-color: orange;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-others-wrapper .cart {
+  position: relative;
+}
+
+.nav-others-wrapper .cart span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  border-radius: 50%;
+  text-shadow: none;
+}
+
+.nav-others-wrapper .cart span.d-none {
+  display: none;
+}
+
+.menu-btn::before,
+.menu-btn::after {
+  content: none;
+}
+
+/* ---------------- nav-bottom styles --------------------- */
+.nav-bottom {
+  transition: 0.35s;
+  overflow: hidden;
+  height: 235px;
+}
+.nav-bottom.hide {
+  transition: all 0.35s ease;
+  height: 0;
+}
+
+.nav-bottom li {
+  border-bottom: 1px solid white;
+}
+
+.nav-bottom li a {
+  font-size: 18px;
+  width: 100%;
+}
+
+.nav-bottom-search-wrapper {
+  background-color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.nav-bottom-search-wrapper input {
+  border: none;
+  /* border-inline: 1px solid orange; */
+  padding: 10px 15px;
+  font-size: 20px;
+}
+
+.nav-bottom-search-wrapper input:focus {
+  outline: none;
+}
+
+.nav-bottom-search-wrapper i {
+  color: gray;
+  font-size: 20px;
+  padding: 10px 15px;
+}
+
+@media (min-width: 768px) {
+  .nav-bottom-search-wrapper a {
+    width: 90%;
+  }
+  .nav-bottom-search-wrapper a input {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .Page {
+    user-select: none;
+  }
+
+  .nav-logo-wrapper {
+    width: 12%;
+  }
+
+  .nav-others-wrapper {
+    width: 20%;
+  }
+
+  .nav-others-wrapper button {
+    cursor: pointer;
+  }
+
+  .nav-bottom-search-wrapper a {
+    width: 90%;
+  }
+
+  .nav-bottom-search-wrapper a input {
+    width: 100%;
+  }
+
+  .nav-bottom li:hover {
+    background-color: rgb(255, 180, 40);
+  }
+
+  .nav-bottom li {
+    cursor: pointer;
+  }
+
+  .search-icon {
+    cursor: pointer;
+  }
+}

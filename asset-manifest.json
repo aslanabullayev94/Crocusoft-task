@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Crocusoft-task/static/css/main.7af6a3aa.css",
+    "main.js": "/Crocusoft-task/static/js/main.5cfddcef.js",
+    "static/js/787.796cdd0e.chunk.js": "/Crocusoft-task/static/js/787.796cdd0e.chunk.js",
+    "static/media/img-1.jpg": "/Crocusoft-task/static/media/img-1.474294d3c9f202fd43b9.jpg",
+    "static/media/img-13.jpg": "/Crocusoft-task/static/media/img-13.3483170fe9a4fdf2cf08.jpg",
+    "static/media/img-12.jpg": "/Crocusoft-task/static/media/img-12.74378c7578c95bf5ed0d.jpg",
+    "static/media/img-4.jpg": "/Crocusoft-task/static/media/img-4.746b26761fd8addf8ad8.jpg",
+    "static/media/img-20.jpg": "/Crocusoft-task/static/media/img-20.b0bf8796b606e6c1ef00.jpg",
+    "static/media/img-16.jpg": "/Crocusoft-task/static/media/img-16.06f041ca3b1838ae77bf.jpg",
+    "static/media/img-3.jpg": "/Crocusoft-task/static/media/img-3.3f14b9bd3d076452d15f.jpg",
+    "static/media/img-7.jpg": "/Crocusoft-task/static/media/img-7.6054ca9658ccc7f4232e.jpg",
+    "static/media/img-2.jpg": "/Crocusoft-task/static/media/img-2.1b6b8ca6875cdfba64a1.jpg",
+    "static/media/img-17.jpg": "/Crocusoft-task/static/media/img-17.e9b446ab3d5efecc84b7.jpg",
+    "static/media/img-11.jpg": "/Crocusoft-task/static/media/img-11.3adbb4005e719a47441b.jpg",
+    "static/media/img-5.jpg": "/Crocusoft-task/static/media/img-5.30800538fa81ccda8fdb.jpg",
+    "static/media/img-15.jpg": "/Crocusoft-task/static/media/img-15.b64f1c03785586da79eb.jpg",
+    "static/media/img-14.jpg": "/Crocusoft-task/static/media/img-14.a8fb2045dd1eeb1dc87a.jpg",
+    "static/media/img-18.jpg": "/Crocusoft-task/static/media/img-18.bc5fcfc3900c1c779da5.jpg",
+    "static/media/img-6.jpg": "/Crocusoft-task/static/media/img-6.812864a2afaa68cfa2e9.jpg",
+    "static/media/img-10.jpg": "/Crocusoft-task/static/media/img-10.3386d5cb5861202c76ce.jpg",
+    "static/media/img-19.jpg": "/Crocusoft-task/static/media/img-19.95eb26a3dcbe916bc7c5.jpg",
+    "static/media/img-9.jpg": "/Crocusoft-task/static/media/img-9.0f69d5e786b2f2eacf6d.jpg",
+    "static/media/img-8.jpg": "/Crocusoft-task/static/media/img-8.5d4d64ebf64fa5abf298.jpg",
+    "index.html": "/Crocusoft-task/index.html",
+    "main.7af6a3aa.css.map": "/Crocusoft-task/static/css/main.7af6a3aa.css.map",
+    "main.5cfddcef.js.map": "/Crocusoft-task/static/js/main.5cfddcef.js.map",
+    "787.796cdd0e.chunk.js.map": "/Crocusoft-task/static/js/787.796cdd0e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7af6a3aa.css",
+    "static/js/main.5cfddcef.js"
+  ]
+}
